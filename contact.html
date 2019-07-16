@@ -8,6 +8,7 @@
 <head>
     <title>Austin Fletcher</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -21,6 +22,25 @@
     </header>
     <br />
     <h2>contact me</h2>
+    <br />
+    <form action="send-mail.php" method="POST">
+        <label for="contactName" name="senderName">Name</label>
+        <input type="text" cass="contactName" name="senderName">
+        <br />
+
+        <label for="contactEmail">Email</label>
+        <input type="text" class="contactEmail" name="senderEmail">
+        <br />
+
+        <label for ="contactMessage">Message</label>
+        <textarea class="contactMessage" name="senderMessage"></textarea>
+        <br />
+
+        <input class="contactSendButton" type="submit" name="sendMessage" value="Send">
+    </form>
 </body>
+<footer>
+    <p class="footerText">Copyright@AustinJFletcher</p>
+</footer>
 
 </html>
