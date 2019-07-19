@@ -2,13 +2,50 @@
    Basic portfolio
    style.css
 */
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: rgb(230, 230, 230);
+  width: 60em;
+}
 
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: rgb(163, 179, 207);
+  padding: 1em;
+  margin: 1em;
+  border: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: rgb(230, 230, 230);
   }
+
+  header.h1{
+    float: left;
+    background: red;
+
+  }
+  header.nav{
+    float: left;
+    background: blue;
+  }
+
+  img.myPhoto{
+    /* transform: rotate(-90deg); */
+    float: left;
+    width: 10%;
+    height: 10%;
+  }
+section.myBio{
+  text-align: center;
+  float: left;
+  width: 50em;
+  background: green;
+
+}
+
