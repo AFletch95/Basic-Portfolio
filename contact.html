@@ -25,15 +25,15 @@
     <br />
     <form action="send-mail.php" method="POST">
         <label for="contactName" name="senderName">Name</label>
-        <input type="text" class="contactName" name="senderName">
+        <input type="text" id="contactName" name="senderName">
         <br />
 
         <label for="contactEmail">Email</label>
-        <input type="text" class="contactEmail" name="senderEmail">
+        <input type="text" id="contactEmail" name="senderEmail">
         <br />
 
         <label for ="contactMessage">Message</label>
-        <textarea class="contactMessage" name="senderMessage"></textarea>
+        <textarea id="contactMessage" name="senderMessage"></textarea>
         <br />
 
         <input class="contactSendButton" type="submit" name="sendMessage" value="Send">
