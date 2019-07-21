@@ -20,24 +20,28 @@
             <a class="myLinks" href="contact.html">Contact me</a>
         </nav>
     </header>
-    <br />
-    <h2>contact me</h2>
-    <br />
-    <form action="send-mail.php" method="POST">
-        <label for="contactName" name="senderName">Name</label>
-        <input type="text" id="contactName" name="senderName">
-        <br />
+    <!-- <div class=myBio> -->
+        <form >
+                <h1>Contact me</h1>
+                <br />
+            <label for="contactName" name="senderName">Name</label>
+            <br />
+            <input type="text" id="contactName" name="senderName">
+            <br /><br />
 
-        <label for="contactEmail">Email</label>
-        <input type="text" id="contactEmail" name="senderEmail">
-        <br />
+            <label for="contactEmail">Email</label>
+            <br />
+            <input type="text" id="contactEmail" name="senderEmail">
+            <br /><br />
 
-        <label for ="contactMessage">Message</label>
-        <textarea id="contactMessage" name="senderMessage"></textarea>
-        <br />
+            <label for ="contactMessage">Message</label>
+            <br />
+            <textarea id="contactMessage" name="senderMessage"></textarea>
+            <br />
 
-        <input class="contactSendButton" type="submit" name="sendMessage" value="Send">
-    </form>
+            <input class="contactSendButton" type="submit" name="sendMessage" value="Send">
+        </form>
+    <!-- </div> -->
 </body>
 <footer>
     <p class="footerText">Copyright@AustinJFletcher</p>
